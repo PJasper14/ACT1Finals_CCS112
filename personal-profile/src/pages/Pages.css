@@ -1,0 +1,267 @@
+/* General Page Styles */
+.page {
+  min-height: calc(100vh - 150px);
+  padding: 2rem 0;
+}
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.page h2 {
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #93c5fd;
+  padding-bottom: 0.5rem;
+}
+
+/* Home Page */
+.intro-section {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.profile-image {
+  flex: 1;
+  max-width: 300px;
+}
+
+.image-placeholder {
+  background-color: #dbeafe;
+  border: 2px solid #3b82f6;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e3a8a;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.intro-text {
+  flex: 2;
+  line-height: 1.6;
+}
+
+/* About Page */
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.about-section h3 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.about-section ul {
+  margin-left: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Education Page */
+.education-list {
+  margin-bottom: 2rem;
+}
+
+.education-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #dbeafe;
+}
+
+.education-item h3 {
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.years {
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.courses-section h3 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.5rem;
+  list-style-position: inside;
+}
+
+/* Projects Page */
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  border: 1px solid #dbeafe;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  background-color: #2563eb;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+}
+
+.project-details {
+  padding: 1rem;
+}
+
+.project-description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.technologies h4 {
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.technologies ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #1e3a8a;
+}
+
+/* Contact Page */
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.contact-item {
+  margin-bottom: 1.5rem;
+}
+
+.contact-item h3 {
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 0.5rem;
+}
+
+.social-links a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #1e3a8a;
+  text-decoration: underline;
+}
+
+.contact-form h3 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #4b5563;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.submit-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #1e3a8a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .intro-section {
+    flex-direction: column;
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+  
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .courses-list {
+    grid-template-columns: 1fr;
+  }
+} 
