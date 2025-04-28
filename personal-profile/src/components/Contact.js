@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './Pages.css';
 
 function Contact() {
@@ -12,7 +13,7 @@ function Contact() {
             <div className="contact-details">
               <div className="contact-item">
                 <h3>Email</h3>
-                <p><a href="mailto:myemail@example.com">myemail@example.com</a></p>
+                <p><a href="mailto:nuguidprincejasper14@gmail.com">nuguidprincejasper14@gmail.com</a></p>
               </div>
               
               <div className="contact-item">
@@ -20,12 +21,12 @@ function Contact() {
                 <ul className="social-links">
                   <li>
                     <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                      GitHub
+                      <FaGithub className="social-icon" /> GitHub
                     </a>
                   </li>
                   <li>
                     <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer">
-                      LinkedIn
+                      <FaLinkedin className="social-icon" /> LinkedIn
                     </a>
                   </li>
                 </ul>

@@ -9,11 +9,15 @@ function Home() {
           <h2>Welcome to My Personal Profile</h2>
           <div className="intro-section">
             <div className="profile-image">
-              <div className="image-placeholder">Profile Image</div>
+              <img 
+                src="/images/NUGUID.png" 
+                alt="Profile" 
+                className="actual-image"
+              />
             </div>
             <div className="intro-text">
-              <p>Hello! I'm a passionate developer with a love for creating web applications.</p>
-              <p>This website showcases my background, education, projects, and how to get in touch with me.</p>
+              <p>Hello! Welcome to my profile.</p>
+              <p>This page showcases my background, education, projects, and how to get in touch with me.</p>
               <p>Feel free to explore and learn more about my journey!</p>
             </div>
           </div>

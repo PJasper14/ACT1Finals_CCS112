@@ -20,10 +20,10 @@ function Projects() {
                   <h4>Technologies Used:</h4>
                   <ul>
                     <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>MongoDB</li>
-                    <li>Stripe API</li>
+                    <li>Laravel</li>
+                    <li>MySQL</li>
+                    <li>Xampp</li>
+                    <li>Tailwind CSS</li>
                   </ul>
                 </div>
                 <a href="https://github.com/" className="project-link" target="_blank" rel="noopener noreferrer">
@@ -33,7 +33,7 @@ function Projects() {
             </div>
             
             <div className="project-card">
-              <h3>Task Management Application</h3>
+              <h3>Task Management</h3>
               <div className="project-details">
                 <p className="project-description">
                   A task management application that allows users to create, organize,
@@ -43,9 +43,10 @@ function Projects() {
                   <h4>Technologies Used:</h4>
                   <ul>
                     <li>React.js</li>
-                    <li>Firebase</li>
-                    <li>Redux</li>
-                    <li>Material UI</li>
+                    <li>Laravel</li>
+                    <li>MySQL</li>
+                    <li>Tailwind CSS</li>
+                    <li>Xampp</li>
                   </ul>
                 </div>
                 <a href="https://github.com/" className="project-link" target="_blank" rel="noopener noreferrer">
@@ -54,27 +55,6 @@ function Projects() {
               </div>
             </div>
             
-            <div className="project-card">
-              <h3>Weather Forecast App</h3>
-              <div className="project-details">
-                <p className="project-description">
-                  A weather application that provides current weather conditions and 
-                  forecasts based on user location or search queries.
-                </p>
-                <div className="technologies">
-                  <h4>Technologies Used:</h4>
-                  <ul>
-                    <li>React.js</li>
-                    <li>OpenWeather API</li>
-                    <li>CSS3</li>
-                    <li>Geolocation API</li>
-                  </ul>
-                </div>
-                <a href="https://github.com/" className="project-link" target="_blank" rel="noopener noreferrer">
-                  View Project
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>

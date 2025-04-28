@@ -11,19 +11,22 @@ function About() {
           <section className="about-section">
             <h3>Personal Background</h3>
             <p>
-              I am a dedicated and enthusiastic individual with a passion for technology 
+              I am PRINCE JASPER G. NUGUID, a 3rd year Information Technology Student, 
+              a dedicated and enthusiastic individual with a passion for technology 
               and problem-solving. Born and raised in the Philippines, I've always been 
-              fascinated by how software can change the world.
+              fascinated by how software can change the world. And I also want to make a change.
             </p>
           </section>
           
           <section className="about-section">
             <h3>Hobbies</h3>
             <ul>
-              <li>Reading tech blogs and books</li>
-              <li>Playing strategy games</li>
-              <li>Photography</li>
-              <li>Hiking and exploring nature</li>
+              <li>Reading current trends</li>
+              <li>Playing video games</li>
+              <li>Basketball</li>
+              <li>Exploring nature</li>
+              <li>Biking</li>
+              <li>Running</li>
             </ul>
           </section>
           
@@ -34,6 +37,8 @@ function About() {
               <li>Artificial Intelligence</li>
               <li>Cybersecurity</li>
               <li>Mobile App Development</li>
+              <li>Database Management</li>
+              <li>New Technologies</li>
             </ul>
           </section>
         </div>
